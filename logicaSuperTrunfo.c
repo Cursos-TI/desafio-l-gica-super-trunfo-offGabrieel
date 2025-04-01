@@ -25,7 +25,7 @@ int main() {
     // scanf("%s", codigo);
     // 
     // (Repita para cada propriedade)
-    
+
     printf ("Carta 01\n");
     printf ("Estado: ");
     scanf ("%s", estado);
@@ -138,6 +138,32 @@ int main() {
 
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
+
+    if(populacao > populacao2){
+        printf("Carta 01 tem maior população!\n");
+    } else {
+        printf("Carta 02 tem maior população!\n");
+    }
+
+    if(area > area2){
+        printf("Carta 01 tem maior area!\n");
+    } else {
+        printf("Carta 02 tem maior area!\n");
+    }
+
+    if(PIB > PIB2){
+        printf("Carta 01 tem maior PIB!\n");
+    } else {
+        printf("Carta 02 tem maior PIB!\n");
+    }
+
+    if(turisticos > turisticos2){
+        printf("Carta 01 tem mais pontos turisticos!\n");
+    } else {
+        printf("Carta 02 tem mais pontos turisticos!\n");
+    }
+
+
 
     return 0;
 }
