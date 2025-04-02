@@ -140,27 +140,45 @@ int main() {
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
     if(populacao > populacao2){
-        printf("Carta 01 tem maior população!\n");
+        printf("Carta 01 tem a maior população!\n");
     } else {
-        printf("Carta 02 tem maior população!\n");
+        printf("Carta 02 tem a maior população!\n");
     }
 
     if(area > area2){
-        printf("Carta 01 tem maior area!\n");
+        printf("Carta 01 tem a maior area!\n");
     } else {
-        printf("Carta 02 tem maior area!\n");
+        printf("Carta 02 tem a maior area!\n");
     }
 
     if(PIB > PIB2){
-        printf("Carta 01 tem maior PIB!\n");
+        printf("Carta 01 tem o maior PIB!\n");
     } else {
-        printf("Carta 02 tem maior PIB!\n");
+        printf("Carta 02 tem o maior PIB!\n");
     }
 
     if(turisticos > turisticos2){
         printf("Carta 01 tem mais pontos turisticos!\n");
     } else {
         printf("Carta 02 tem mais pontos turisticos!\n");
+    }
+
+    if(densidade < densidade2){
+        printf("Carta 01 tem a maior densidade!\n");
+    } else {
+        printf("Carta 02 tem a maior densidade!\n");
+    }
+
+    if(capita > capita2){
+        printf("Carta 01 tem o maior PIB per capita!\n");
+    } else {
+        printf("Carta 02 tem o maior PIB per capita!\n");
+    }
+
+    if(poder1 > poder2){
+        printf("Carta 01 tem o maior SUPER PODER!\n");
+    } else {
+        printf("Carta 02 tem o maior SUPER PODER!\n");
     }
 
 
