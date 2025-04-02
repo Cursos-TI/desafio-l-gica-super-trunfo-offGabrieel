@@ -138,47 +138,15 @@ int main() {
 
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
-
+    
+    printf("Comparação das cartas! (Atributo: População)\n");
+    printf("Carta 01: %s (%s): %d \n", estado, cidade, populacao);
+    printf("Carta 02: %s (%s): %d \n", estado2, cidade2, populacao2);
+    
     if(populacao > populacao2){
-        printf("Carta 01 tem a maior população!\n");
+        printf("Resultado: Carta 01 (%s) venceu!\n", cidade);
     } else {
-        printf("Carta 02 tem a maior população!\n");
-    }
-
-    if(area > area2){
-        printf("Carta 01 tem a maior area!\n");
-    } else {
-        printf("Carta 02 tem a maior area!\n");
-    }
-
-    if(PIB > PIB2){
-        printf("Carta 01 tem o maior PIB!\n");
-    } else {
-        printf("Carta 02 tem o maior PIB!\n");
-    }
-
-    if(turisticos > turisticos2){
-        printf("Carta 01 tem mais pontos turisticos!\n");
-    } else {
-        printf("Carta 02 tem mais pontos turisticos!\n");
-    }
-
-    if(densidade < densidade2){
-        printf("Carta 01 tem a maior densidade!\n");
-    } else {
-        printf("Carta 02 tem a maior densidade!\n");
-    }
-
-    if(capita > capita2){
-        printf("Carta 01 tem o maior PIB per capita!\n");
-    } else {
-        printf("Carta 02 tem o maior PIB per capita!\n");
-    }
-
-    if(poder1 > poder2){
-        printf("Carta 01 tem o maior SUPER PODER!\n");
-    } else {
-        printf("Carta 02 tem o maior SUPER PODER!\n");
+        printf("Resultado: Carta 02 (%s) venceu!\n", cidade2);
     }
 
 
