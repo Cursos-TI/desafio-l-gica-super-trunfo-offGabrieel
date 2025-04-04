@@ -23,7 +23,6 @@ int main() {
     // Exemplo:
     // printf("Digite o código da cidade: ");
     // scanf("%s", codigo);
-    // 
     // (Repita para cada propriedade)
 
     printf ("Carta 01\n");
@@ -145,11 +144,11 @@ int main() {
     
     if(populacao > populacao2){
         printf("Resultado: Carta 01 (%s) venceu!\n", cidade);
-    } else {
+    } else if(populacao < populacao2) {
         printf("Resultado: Carta 02 (%s) venceu!\n", cidade2);
+    } else {
+        printf("Houve um empate!\n");
     }
-
-
 
     return 0;
 }
