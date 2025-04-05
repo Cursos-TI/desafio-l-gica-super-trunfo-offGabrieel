@@ -229,7 +229,7 @@ int main() {
         printf("Houve um empate!\n");
     }
     break;
-    default{
+    default:{
         printf("Digito Inválido!");
     break;
     }
