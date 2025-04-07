@@ -360,7 +360,7 @@ int main() {
     }
     printf("\n\n");
 
-    // Exibição do resultado final com a soma e comparação dos dois atributos selecionados
+    // Exibição do resultado final com a soma e comparação dos dois atributos selecionados 
     
         printf("** Resultado Final **\n");
         printf("CARTA 01: %s (%s)\n", estado, cidade);
