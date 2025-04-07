@@ -113,6 +113,7 @@ int main() {
     printf ("\n\n");
 
     // Comparação de Cartas:
+    // Menu de seleção de atributos que deseja ser comparado
     
     printf("** Comparação das cartas! **\n");
     printf("Escolha o primeiro atributo!\n");
@@ -125,6 +126,8 @@ int main() {
     printf("7. Super Poder\n");
     printf("Escolha uma opção:\n");
     scanf("%s", &primeiroAtributo);
+
+    // Sistema de interação com o menu
 
     switch (primeiroAtributo){
         case '1':
@@ -231,7 +234,9 @@ int main() {
     }
     
     printf("\n\n");
-    
+
+    // Segundo menu de interação para selecionar o atributo que deseja comparar
+
     printf("Escolha o segundo atributo!\n");
     printf("** Atenção: você deve escolher um atributo diferente do primeiro! **\n");
     printf("1. População\n");
@@ -243,6 +248,8 @@ int main() {
     printf("7. Super Poder\n");
     printf("Escolha uma opção:\n");
     scanf("%s", &segundoAtributo);
+
+    // segundo sistema de interação com o menu de comparações de atributos
     
     if (primeiroAtributo == segundoAtributo){
         printf("Você escolheu o mesmo atributo!\n");
@@ -352,6 +359,8 @@ int main() {
         }
     }
     printf("\n\n");
+
+    // Exibição do resultado final com a soma e comparação dos dois atributos selecionados
     
         printf("** Resultado Final **\n");
         printf("CARTA 01: %s (%s)\n", estado, cidade);
