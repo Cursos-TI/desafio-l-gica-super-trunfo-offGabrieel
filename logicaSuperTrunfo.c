@@ -147,6 +147,7 @@ int main() {
     printf("4. Número de pontos turísticos\n");
     printf("5. Densidade democrafica\n");
     printf("6. PIB per capta\n");
+    printf("7. Super Poder\n");
     printf("Escolha uma opção: \n");
     scanf("%d", &opcao);
 
@@ -228,10 +229,24 @@ int main() {
     } else {
         printf("Houve um empate!\n");
     }
-    break;
+        break;
+        case 7:
+        printf("Comparação das cartas! (Super Poder)\n");
+            printf("Carta 01: %s (%s): %.2f Reais.\n", estado, cidade, poder1);
+            printf("Carta 02: %s (%s): %.2f Reais.\n", estado2, cidade2, poder2);
+    
+    if(poder1 > poder2){
+        printf("Resultado: Carta 01 (%s) venceu!\n", cidade);
+    } else if(poder1 < poder2) {
+        printf("Resultado: Carta 02 (%s) venceu!\n", cidade2);
+    } else {
+        printf("Houve um empate!\n");
+    }
+        break;
     default:{
-        printf("Digito Inválido!");
-    break;
+        printf("Digito Inválido! (Selecione um dos números acima!)");
+        break;
+    
     }
 
 
