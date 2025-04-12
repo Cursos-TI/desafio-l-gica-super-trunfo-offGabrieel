@@ -134,99 +134,99 @@ int main() {
             printf("Você escolheu o atributo População!\n");
             printf("Carta 01: %d Habitantes\n", populacao);
             printf("Carta 02: %d Habitantes\n", populacao2);
-            if (populacao > populacao2){
-                printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
-            } else if (populacao < populacao2){
-                printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
-            } else {
-                printf("Houve um empate!\n");
-            }
-            somaFinal1 = somaFinal1 + populacao;
-            somaFinal2 = somaFinal2 + populacao2;
+                if (populacao > populacao2){
+                    printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
+                } else if (populacao < populacao2){
+                    printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
+                } else {
+                    printf("Houve um empate!\n");
+                }
+        somaFinal1 = somaFinal1 + populacao;
+        somaFinal2 = somaFinal2 + populacao2;
         break;
         case '2':
             printf("Você escolheu o atributo Área!\n");
             printf("Carta 01: %.2f km²\n", area);
             printf("Carta 02: %.2f km²\n", area2);
-            if (area > area2){
-                printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
-            } else if (populacao < populacao2){
-                printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
-            } else {
-                printf("Houve um empate!\n");
-            }
-            somaFinal1 = somaFinal1 + area;
-            somaFinal2 = somaFinal2 + area2;
+                if (area > area2){
+                    printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
+                } else if (populacao < populacao2){
+                    printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
+                } else {
+                    printf("Houve um empate!\n");
+                }
+        somaFinal1 = somaFinal1 + area;
+        somaFinal2 = somaFinal2 + area2;
         break;
         case '3':
             printf("Você escolheu o atributo PIB!\n");
             printf("Carta 01: %.2f Reais\n", PIB);
             printf("Carta 02: %.2f Reais\n", PIB2);
-            if (PIB > PIB2){
-                printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
-            } else if (populacao < populacao2){
-                printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
-            } else {
-                printf("Houve um empate!\n");
-            }
-            somaFinal1 = somaFinal1 + PIB;
-            somaFinal2 = somaFinal2 + PIB2;
+                if (PIB > PIB2){
+                    printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
+                } else if (populacao < populacao2){
+                    printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
+                } else {
+                    printf("Houve um empate!\n");
+                }
+        somaFinal1 = somaFinal1 + PIB;
+        somaFinal2 = somaFinal2 + PIB2;
         break;
         case '4':
             printf("Você escolheu o atributo Pontos turísticos!\n");
             printf("Carta 01: %d\n", turisticos);
             printf("Carta 02: %d\n", turisticos2);
-            if (turisticos > turisticos2){
-                printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
-            } else if (turisticos < turisticos2){
-                printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
-            } else {
-                printf("Houve um empate!\n");
-            }
-            somaFinal1 = somaFinal1 + turisticos;
-            somaFinal2 = somaFinal2 + turisticos2;
+                if (turisticos > turisticos2){
+                    printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
+                } else if (turisticos < turisticos2){
+                    printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
+                } else {
+                    printf("Houve um empate!\n");
+                }
+        somaFinal1 = somaFinal1 + turisticos;
+        somaFinal2 = somaFinal2 + turisticos2;
         break;
         case '5':
             printf("Você escolheu o atributo Densidade demográfica!\n");
             printf("Carta 01: %.2f hab/km²\n", densidade);
             printf("Carta 02: %.2f hab/km²\n", densidade2);
-            if (densidade < densidade2){
-                printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
-            } else if (densidade > densidade2){
-                printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
-            } else {
-                printf("Houve um empate!\n");
-            }
-            somaFinal1 = somaFinal1 + densidade;
-            somaFinal2 = somaFinal2 + densidade2;
+                if (densidade < densidade2){
+                    printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
+                } else if (densidade > densidade2){
+                    printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
+                } else {
+                    printf("Houve um empate!\n");
+                }
+        somaFinal1 = somaFinal1 + densidade;
+        somaFinal2 = somaFinal2 + densidade2;
         break;
         case '6':
             printf("Você escolheu o atributo PIB per Capita!\n");
             printf("Carta 01: %.2f Reais\n", capita);
             printf("Carta 02: %.2f Reais\n", capita2);
-            if (capita > capita2){
-                printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
-            } else if (capita < capita2){
-                printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
-            } else {
-                printf("Houve um empate!\n");
-            }
-            somaFinal1 = somaFinal1 + capita;
-            somaFinal2 = somaFinal2 + capita2;
+                if (capita > capita2){
+                    printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
+                } else if (capita < capita2){
+                    printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
+                } else {
+                    printf("Houve um empate!\n");
+                }
+        somaFinal1 = somaFinal1 + capita;
+        somaFinal2 = somaFinal2 + capita2;
         break;
         case '7':
             printf("Você escolheu o atributo Super Poder!\n");
             printf("Carta 01: %.2f\n", poder1);
             printf("Carta 02: %.2f\n", poder2);
-            if (poder1 > poder2){
-                printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
-            } else if (poder1 < poder2){
-                printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
-            } else {
-                printf("Houve um empate!\n");
-            }
-            somaFinal1 = somaFinal1 + poder1;
-            somaFinal2 = somaFinal2 + poder2;
+                if (poder1 > poder2){
+                    printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
+                } else if (poder1 < poder2){
+                    printf("Carta 02: %s (%s) venceu!\n", estado2, cidade2);
+                } else {
+                    printf("Houve um empate!\n");
+                }
+        somaFinal1 = somaFinal1 + poder1;
+        somaFinal2 = somaFinal2 + poder2;
         break;
         default:
             printf("Opção Inválida!\n");
@@ -255,10 +255,10 @@ int main() {
         printf("Você escolheu o mesmo atributo!\n");
     } else { 
         switch (segundoAtributo){
-        case '1':
-            printf("Você escolheu o atributo População!\n");
-            printf("Carta 01: %d Habitantes\n", populacao);
-            printf("Carta 02: %d Habitantes\n", populacao2);
+            case '1':
+                printf("Você escolheu o atributo População!\n");
+                printf("Carta 01: %d Habitantes\n", populacao);
+                printf("Carta 02: %d Habitantes\n", populacao2);
             if (populacao > populacao2){
                 printf("Carta 01: %s (%s) venceu!\n", estado, cidade);
             } else if (populacao < populacao2){
@@ -266,8 +266,8 @@ int main() {
             } else {
                 printf("Houve um empate!\n");
             }
-            somaFinal1 = somaFinal1 + populacao;
-            somaFinal2 = somaFinal2 + populacao2;
+        somaFinal1 = somaFinal1 + populacao;
+        somaFinal2 = somaFinal2 + populacao2;
         break;
         case '2':
             printf("Você escolheu o atributo Área!\n");
@@ -280,8 +280,8 @@ int main() {
             } else {
                 printf("Houve um empate!\n");
             }
-            somaFinal1 = somaFinal1 + area;
-            somaFinal2 = somaFinal2 + area2;
+        somaFinal1 = somaFinal1 + area;
+        somaFinal2 = somaFinal2 + area2;
         break;
         case '3':
             printf("Você escolheu o atributo PIB!\n");
@@ -294,8 +294,8 @@ int main() {
             } else {
                 printf("Houve um empate!\n");
             }
-            somaFinal1 = somaFinal1 + PIB;
-            somaFinal2 = somaFinal2 + PIB2;
+        somaFinal1 = somaFinal1 + PIB;
+        somaFinal2 = somaFinal2 + PIB2;
         break;
         case '4':
             printf("Você escolheu o atributo Pontos turísticos!\n");
@@ -308,8 +308,8 @@ int main() {
             } else {
                 printf("Houve um empate!\n");
             }
-            somaFinal1 = somaFinal1 + turisticos;
-            somaFinal2 = somaFinal2 + turisticos2;
+        somaFinal1 = somaFinal1 + turisticos;
+        somaFinal2 = somaFinal2 + turisticos2;
         break;
         case '5':
             printf("Você escolheu o atributo Densidade demográfica!\n");
@@ -322,8 +322,8 @@ int main() {
             } else {
                 printf("Houve um empate!\n");
             }
-            somaFinal1 = somaFinal1 + densidade;
-            somaFinal2 = somaFinal2 + densidade2;
+        somaFinal1 = somaFinal1 + densidade;
+        somaFinal2 = somaFinal2 + densidade2;
         break;
         case '6':
             printf("Você escolheu o atributo PIB per Capita!\n");
@@ -336,8 +336,8 @@ int main() {
             } else {
                 printf("Houve um empate!\n");
             }
-            somaFinal1 = somaFinal1 + capita;
-            somaFinal2 = somaFinal2 + capita2;
+        somaFinal1 = somaFinal1 + capita;
+        somaFinal2 = somaFinal2 + capita2;
         break;
         case '7':
             printf("Você escolheu o atributo Super Poder!\n");
@@ -350,8 +350,8 @@ int main() {
             } else {
                 printf("Houve um empate!\n");
             }
-            somaFinal1 = somaFinal1 + poder1;
-            somaFinal2 = somaFinal2 + poder2;
+        somaFinal1 = somaFinal1 + poder1;
+        somaFinal2 = somaFinal2 + poder2;
         break;
         default:
             printf("Opção Inválida!\n");
